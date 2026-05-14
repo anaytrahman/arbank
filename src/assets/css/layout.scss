@@ -1,0 +1,46 @@
+.banking-app-main {
+    .header-section {
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.048);
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 2rem;
+            align-items: center;
+
+            .profile-wrapper {
+                .profile-pic {
+                    width: 45px;
+                    height: 46px;
+                    border-radius: 50%;
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    /*middle content section along with sidebar*/
+    .main-content-section {
+        padding: 1rem 0px;
+        .sidebar-wrapper {
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.048);
+            margin-right: 1rem;
+                //height: 500px;
+
+                .navbar-wrapper{
+
+                }
+        }
+
+        .content-wrapper {
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.048);
+        }
+
+    }
+
+    .footer-section {}
+}

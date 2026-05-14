@@ -1,0 +1,286 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "anayt@mail.com",
+      "password": "123456",
+      "name": "Anayt Rahman",
+      "isAdmin": true
+    },
+    {
+      "id": "2",
+      "email": "aman@mail.com",
+      "password": "123456",
+      "name": "Aman",
+      "isAdmin": false
+    }
+  ],
+  "accounts": [
+    {
+      "id": "1",
+      "userId": "1",
+      "accountNumber": "1001",
+      "balance": 40000,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "accountNumber": "1002",
+      "balance": 25000,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "userId": "3",
+      "accountNumber": "1004",
+      "balance": 1500,
+      "createdAt": "2026-01-01T00:00:00Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx1",
+      "fromAccountId": "1",
+      "toAccountId": "1",
+      "amount": 5,
+      "type": "Debit",
+      "description": "Transfer",
+      "date": "2026-05-06T19:34:04.456Z",
+      "status": "success"
+    },
+    {
+      "id": "tx2",
+      "fromAccountId": "1",
+      "toAccountId": "1",
+      "amount": 12,
+      "type": "Debit",
+      "description": "Transfer",
+      "date": "2026-05-07T07:07:39.949Z",
+      "status": "success"
+    },
+    {
+      "id": "tx3",
+      "fromAccountId": "2",
+      "toAccountId": "1",
+      "amount": 5,
+      "type": "Credit",
+      "description": "Transfer",
+      "date": "2026-05-06T14:00:00.000Z",
+      "status": "success"
+    },
+    {
+      "fromAccountId": "1",
+      "toAccountId": "external",
+      "amount": 151,
+      "description": "for fees",
+      "date": "2026-05-07T17:01:15.912Z",
+      "status": "success",
+      "payeeId": "3TFU9t8B6NY",
+      "type": "Debit",
+      "id": "Qw4GjxG2OWc"
+    },
+    {
+      "fromAccountId": "1",
+      "toAccountId": "2",
+      "amount": 191,
+      "description": "test",
+      "date": "2026-05-07T17:04:40.500Z",
+      "status": "success",
+      "payeeId": "3TFU9t8B6NY",
+      "type": "Debit",
+      "id": "Xo3qxp3-YLg"
+    },
+    {
+      "fromAccountId": "1",
+      "toAccountId": "2",
+      "amount": 191,
+      "description": "test",
+      "date": "2026-05-07T17:04:40.500Z",
+      "status": "success",
+      "payeeId": "3TFU9t8B6NY",
+      "type": "Credit",
+      "id": "EhLwyyUQ7HE"
+    },
+    {
+      "fromAccountId": "1",
+      "toAccountId": "2",
+      "amount": 551,
+      "description": "test 1",
+      "date": "2026-05-07T17:15:58.607Z",
+      "status": "success",
+      "payeeId": "3TFU9t8B6NY",
+      "type": "Debit",
+      "id": "FMDrbKG_VLY"
+    },
+    {
+      "fromAccountId": "1",
+      "toAccountId": "2",
+      "amount": 551,
+      "description": "test 1",
+      "date": "2026-05-07T17:15:58.607Z",
+      "status": "success",
+      "payeeId": "3TFU9t8B6NY",
+      "type": "Credit",
+      "id": "xtIJt-ykoTQ"
+    },
+    {
+      "fromAccountId": "2",
+      "toAccountId": "1",
+      "amount": 221,
+      "description": "to anayt",
+      "date": "2026-05-07T17:20:48.326Z",
+      "status": "success",
+      "payeeId": "W4DjTi8mo3U",
+      "type": "Transfer",
+      "id": "olWAqDMbXbM"
+    },
+    {
+      "fromAccountId": "1",
+      "toAccountId": "external",
+      "amount": 1200,
+      "description": "shop",
+      "date": "2026-05-07T17:37:38.273Z",
+      "status": "success",
+      "payeeId": "rSkkxzAhkAE",
+      "type": "Transfer",
+      "id": "IlV2pW_kl_8"
+    },
+    {
+      "fromAccountId": "1",
+      "toAccountId": "external",
+      "amount": 1200,
+      "description": "Fund transfer",
+      "date": "2026-05-08T05:03:14.009Z",
+      "status": "success",
+      "payeeId": "rSkkxzAhkAE",
+      "type": "Transfer",
+      "id": "cNZdNnQ9XzI"
+    },
+    {
+      "fromAccountId": "1",
+      "toAccountId": "2",
+      "amount": 1200,
+      "description": "Fund transfer",
+      "date": "2026-05-08T05:08:09.892Z",
+      "status": "success",
+      "payeeId": "3TFU9t8B6NY",
+      "type": "Transfer",
+      "id": "DnCmRBCDxBU"
+    },
+    {
+      "fromAccountId": "1",
+      "toAccountId": "2",
+      "amount": 109,
+      "description": "Fund transfer",
+      "date": "2026-05-08T05:09:54.582Z",
+      "status": "success",
+      "payeeId": "3TFU9t8B6NY",
+      "type": "Transfer",
+      "id": "aAuPjw25nos"
+    },
+    {
+      "fromAccountId": "2",
+      "toAccountId": "1",
+      "amount": 999,
+      "description": "Shoping",
+      "date": "2026-05-08T05:52:17.628Z",
+      "status": "success",
+      "payeeId": "W4DjTi8mo3U",
+      "type": "Transfer",
+      "id": "M04gVSMoeOc"
+    },
+    {
+      "fromAccountId": "2",
+      "toAccountId": "1",
+      "amount": 350,
+      "description": "booking",
+      "date": "2026-05-08T05:53:35.793Z",
+      "status": "success",
+      "payeeId": "W4DjTi8mo3U",
+      "type": "Transfer",
+      "id": "KwICjxBy_Io"
+    },
+    {
+      "fromAccountId": "2",
+      "toAccountId": "1",
+      "amount": 599,
+      "description": "wifi",
+      "date": "2026-05-08T06:51:56.347Z",
+      "status": "success",
+      "payeeId": "W4DjTi8mo3U",
+      "type": "Transfer",
+      "id": "uqIoGA1vLRY"
+    },
+    {
+      "fromAccountId": "1",
+      "toAccountId": "2",
+      "amount": 4000,
+      "description": "Rent",
+      "date": "2026-05-11T07:13:24.802Z",
+      "status": "success",
+      "payeeId": "3TFU9t8B6NY",
+      "type": "Transfer",
+      "id": "kPaMorYNlUw"
+    }
+  ],
+  "payees": [
+    {
+      "id": "p1",
+      "userId": "1",
+      "name": "Raman",
+      "accountNumber": "ACC2001",
+      "bankName": "MyBank"
+    },
+    {
+      "id": "p2",
+      "userId": "1",
+      "name": "Poonam",
+      "accountNumber": "ACC2002",
+      "bankName": "MyBank"
+    },
+    {
+      "payeeId": "P39396",
+      "userId": 1,
+      "name": "Iqra rahman",
+      "accountNumber": "252",
+      "id": "YHcwUWnY9_s"
+    },
+    {
+      "payeeId": "P94535",
+      "userId": 1,
+      "name": "rfwwe",
+      "accountNumber": "23422",
+      "id": "fBxJQe4GBsM"
+    },
+    {
+      "payeeId": "P89013",
+      "userId": 1,
+      "name": "Aman",
+      "accountNumber": "1002",
+      "id": "3TFU9t8B6NY"
+    },
+    {
+      "payeeId": null,
+      "userId": 2,
+      "name": "Anayt",
+      "accountNumber": "1001",
+      "id": "W4DjTi8mo3U"
+    },
+    {
+      "payeeId": "P27741",
+      "userId": 1,
+      "name": "John",
+      "accountNumber": "1006",
+      "id": "rSkkxzAhkAE"
+    },
+    {
+      "payeeId": "P13782",
+      "userId": 2,
+      "name": "Virat",
+      "accountNumber": "434",
+      "id": "ro56QvkCKds"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

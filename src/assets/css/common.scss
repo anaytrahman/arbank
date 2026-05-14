@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.profile-show-wrp {
+    display: none;
+}
+
+.profile-show-wrp.show {
+    display: block;
+}
+
+.profile-pic {
+    cursor: pointer;
+}
+
+.profile-show-container {
+    position: absolute;
+    top: 73px;
+    // border: solid #80808003;
+    min-height: 100px;
+    width: 113px;
+    padding: 6px;
+    // background: #80808038;
+    right: 61px;
+    border-radius: 10px;
+}
+
+
+// fund transfer 
+.transfer-fund-container {
+    max-width: 400px;
+    margin: 0px auto;
+    padding: 6px 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+ 
+    .form-fund-w {
+           margin-bottom: 8px;
+    border: solid 1px #8080801c;
+    padding: 6px;
+    border-radius: 5px;
+
+    }
+}
+
+.debit-column {
+    color: red !important;
+}
+
+.credit-column {
+    color: green !important;
+}
+
+.active-menu {
+    background-color: #0d6efd !important;
+    color: white !important;
+}
+
+.menu-item-ts {
+    .nav-link {
+           padding: 4px 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+}
+.transaction-history-heading{
+    text-align: left;
+    font-size: 20px;
+}
+.filter-wrapper{
+   justify-content: end;
+}
+
+.error-border{
+    border: 1px solid red !important;
+}
+
+
+.label-wrapper{
+        text-align: left;
+            margin-bottom: 10px;
+}
+
+.content-top-wrapper{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Chrome, Safari, Edge */
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+.dummy-data{
+    margin-top: 20px;
+    text-align: center;
+    color: #555;
+    p{
+        margin: 0;
+    }
+}
+
+.warning-wrpper{
+    color: red;
+    margin: 10px 0;
+    height: 3px;
+}
+
+.recent-transaction{
+    color: #0d6efd;
+    cursor: pointer;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+  box-shadow: 0px -2px 5px rgb(0 0 0 / 5%);
+    padding: 11px 5px;
+    .dev-by{
+     font-size: 11px;
+    font-style: oblique;
+    }
+}
