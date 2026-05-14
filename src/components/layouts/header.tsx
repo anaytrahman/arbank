@@ -1,6 +1,7 @@
 import { useSelector } from "react-redux";
 import { useState } from "react";
 import ProfileModal from "../../modals/user-profile";
+import { brandDetails } from "../../constants/constants";
 type HeaderProps = {
   onLogout: () => void;
   user: any;
@@ -14,7 +15,7 @@ function Header({ onLogout }: HeaderProps) {
   return (
     <div className="header-content">
       <div className="logo-title-wrp">
-        <h5>MyBank</h5>
+        <h5>{brandDetails.name}</h5>
       </div>
 
       <div className="profile-wrapper">

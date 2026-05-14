@@ -1,3 +1,4 @@
+import { brandDetails } from "../../constants/constants";
 
 
 
@@ -6,7 +7,7 @@ function Footer() {
   return (
     <div className="footer-wrapper">
         <p className="dev-by"> Developed by Anaytullah</p>
-          <p>© {currentYear} MyBank. All rights reserved.</p>
+          <p>© {currentYear} {brandDetails.name}. All rights reserved.</p>
     </div>
   );
 }
